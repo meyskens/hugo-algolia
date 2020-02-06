@@ -8,6 +8,7 @@ indexer
   .option("-o, --output [value]", "Output files", "public/algolia.json")
   .option("-t, --toml", "Parse with TOML", false)
   .option("--config-toml", "Parse config with TOML", false)
+  .option("--override-index-name [value]", "Force override index name", "")
   .option("-A, --all", `Turn off "other" category`, false)
   .option("-s, --send", "Send to Algolia", false)
   .option("-m, --multiple-indices [value]", "Multiple categories")
